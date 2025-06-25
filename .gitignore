@@ -1,0 +1,20 @@
+# Ignore data folders
+train/
+valid/
+test/
+
+# Ignore YOLO runs and weights
+runs/
+*.pt
+
+# Ignore notebooks checkpoints (si tu utilises Jupyter)
+.ipynb_checkpoints/
+
+# Ignore large images, vidéos, etc.
+*.jpg
+*.png
+*.jpeg
+
+# Optionnel : fichiers temporaires
+__pycache__/
+*.log
