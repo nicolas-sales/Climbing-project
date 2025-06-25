@@ -1,20 +1,20 @@
-# Ignore data folders
+# === Ignore tous les dossiers de données sauf test/filtered_views ===
 train/
 valid/
-test/
+test/*
+!test/filtered_views/
 
-# Ignore YOLO runs and weights
+# === Ignore les résultats d'entraînement YOLOv8 ===
 runs/
 *.pt
 
-# Ignore notebooks checkpoints (si tu utilises Jupyter)
-.ipynb_checkpoints/
-
-# Ignore large images, vidéos, etc.
+# === Ignore les images individuelles ===
 *.jpg
-*.png
 *.jpeg
+*.png
 
-# Optionnel : fichiers temporaires
+# === Ignore les fichiers temporaires ===
 __pycache__/
+.ipynb_checkpoints/
 *.log
+
